@@ -1,13 +1,40 @@
+header {
+  background-color:midnightblue;
+  color:lightpink;
+  font-size: larger;
+  padding: 5px;
+}
+
 body {
   background-color:lightpink;
   color: midnightblue;
-  font-family: Century;
 }
+
+.container {
+  display: flex;
+  border: 5px solid #ddd;
+  border-color: midnightblue;
+}
+.left-div, .right-div {
+  padding: 15px;
+}
+.left-div {
+  flex: 0.75;
+}
+.right-div {
+  flex: 0.25;
+  text-align: right;
+}
+
 footer {
   background-color:midnightblue;
-  color:lightpink;
+  color:lightslategray;
   text-align: right;
+  padding: 5px;
 }
 .footerlink {
   color: azure;
+}
+.text {
+  font-family: "Lucida Bright";
 }
