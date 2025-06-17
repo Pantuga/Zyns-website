@@ -1,22 +1,22 @@
 header {
   background-color:midnightblue;
   color:lightpink;
-  font-size: larger;
-  padding: 5px;
+  font-size: xx-large;
+  text-align: center;
 }
 
 body {
-  background-color:lightpink;
+  background-color:rgb(15, 15, 54);
   color: midnightblue;
 }
-
-.container {
-  display: flex;
+.in-body{
+  padding: 15px;
+  background-color: lightpink;
   border: 5px solid #ddd;
   border-color: midnightblue;
 }
-.left-div, .right-div {
-  padding: 15px;
+.container {
+  display: flex;
 }
 .left-div {
   flex: 0.75;
@@ -24,6 +24,12 @@ body {
 .right-div {
   flex: 0.25;
   text-align: right;
+}
+
+.widget-text {
+  background-color:midnightblue;
+  color:lightpink;
+  text-align: center;
 }
 
 footer {
