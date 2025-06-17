@@ -1,5 +1,13 @@
 body {
-  background-color: rgb(234, 198, 238);
-  color: black;
-  font-family: Arial;
+  background-color:lightpink;
+  color: midnightblue;
+  font-family: Century;
+}
+footer {
+  background-color:midnightblue;
+  color:lightpink;
+  text-align: right;
+}
+.footerlink {
+  color: azure;
 }
